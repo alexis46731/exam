@@ -24,10 +24,9 @@ if($_POST){
 
         $query->bindValue(':nom', $nom, PDO::PARAM_STR);
         $query->bindValue(':prénom', $prénom, PDO::PARAM_STR);
-        $query->bindValue(':email', $email, PDO::PARAM_INT);
+        $query->bindValue(':email', $email, PDO::PARAM_STR);
         $query->bindValue(':téléphone', $téléphone, PDO::PARAM_INT);
-        $query->bindValue(':message', $message, PDO::PARAM_INT);
-        $query->bindValue(':date_creation', $date_creation, PDO::PARAM_INT);
+        $query->bindValue(':message', $message, PDO::PARAM_STR);
 
         $query->execute();
 
