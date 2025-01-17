@@ -22,8 +22,5 @@
                     <button type="submit" class="submit-btn">Envoyer</button>
                 </form>
             </div>
-            </section>
-        </div>
-    </main>
 </body>
 </html>
