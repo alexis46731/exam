@@ -33,7 +33,7 @@ if($_POST){
         $_SESSION['message'] = "donnée envoyée";
         require_once('close.php');
 
-        header('Location: index.html');
+        header('Location: index.php');
     }else{
         $_SESSION['erreur'] = "Le formulaire est incomplet";
     }
