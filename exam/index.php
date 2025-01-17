@@ -6,8 +6,8 @@
     <title>Liste des produits</title>
     <link rel="stylesheet" href="./style/style.css">
 <body>
-                <div class="contact-form-container">
-                <h2>Formulaire de Contact</h2>
+          <div class="contact-form-container">
+            <h2>Formulaire de Contact</h2>
                 <form action="add.php" method="$_POST">
                     <input type="text" id="nom" name="nom" placeholder="Nom" required >
                     
